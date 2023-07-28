@@ -1,0 +1,44 @@
+.nav {
+  li {
+    flex: 0 0 306px;
+  }
+}
+.intro {
+  background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true)
+    center / cover;
+  &-img {
+    flex: 1 0 746px;
+  }
+}
+.about {
+  &-card {
+    flex: 0 0 636px;
+  }
+  &-info {
+    flex: 0 0 536px;
+  }
+}
+.card {
+  width: 48.113%;
+}
+.contact {
+  &-info {
+    flex: 0 0 657px;
+    img {
+      width: 15.22%;
+    }
+  }
+  &-img {
+    flex: 0 0 526px;
+    img {
+      width: 162px;
+    }
+  }
+}
+.projects {
+  &-title {
+    h2 {
+      width: 57.56%;
+    }
+  }
+}

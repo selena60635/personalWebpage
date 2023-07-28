@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+}
+body,
+button {
+  font-family: "Bruno Ace SC", cursive, "Noto Sans TC", sans-serif,
+    "Noto Serif TC", serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+ul,
+li {
+  color: $light;
+  text-decoration: none;
+  line-height: 1.5;
+  display: block;
+}
